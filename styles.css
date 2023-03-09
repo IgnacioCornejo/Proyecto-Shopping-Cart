@@ -145,4 +145,17 @@ footer ul {
 div ul {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+div ul li {
+  margin-bottom: 10px;
+}
+h3 {
+  margin-bottom: 20px;
+}
+aside {
+  height: 500px;
+  width: 250px;
+  background-color: grey;
 }

@@ -157,5 +157,74 @@ h3 {
 aside {
   height: 500px;
   width: 250px;
-  background-color: grey;
+  background-color: #0b1e34;
+  font-family: "EB Garamond", serif;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+aside div {
+  display: flex;
+
+  height: 30px;
+  gap: 20px;
+  align-items: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  font-family: "EB Garamond", serif;
+  color: white;
+}
+
+div a {
+  color: white;
+  font-size: 16px;
+}
+
+div i {
+  color: white;
+}
+
+aside ul li div {
+  margin-left: 20px;
+}
+
+.hidden_ctn {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #142f4e;
+  top: 0;
+  left: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "EB Garamond", serif;
+}
+
+ul li:hover .hidden_ctn {
+  display: block;
+}
+
+.main_menu {
+  position: relative;
+}
+
+aside ul li:hover {
+  background-color: #142f4e;
+}
+
+div ul {
+  color: white;
+}
+h3 {
+  font-size: 16px;
 }
